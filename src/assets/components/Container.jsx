@@ -1,10 +1,11 @@
 import Card from "./Card";
 import pokemondata from '../static/pokemons.json'
+import styles from '../css/container.module.css'
 
 const Container = ({type}) => {
     return (
-        <section className="container">
-            <h1 className={"container-title"}>Pokemon Cards</h1>
+        <section className={styles.container}>
+            <h1 className={styles.containerTitle}>Pokemon Cards</h1>
             {pokemondata[type].map(pokemon => {
                 return (
                     <Card key={pokemon.id} type={type} {...pokemon}/>                    
