@@ -1,4 +1,4 @@
-import Card from "./Card";
+import Card from './Card'
 import pokemondata from '../static/pokemons.json'
 import styles from '../css/container.module.css'
 
