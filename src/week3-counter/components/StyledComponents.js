@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Container = styled.div`
 display: flex;
 justify-content: center;
-align-items: center;
+align-items: flex-end;
 flex-wrap: wrap;
 `
 
@@ -16,8 +16,8 @@ margin: 24px 0;
 color: blue;
 `
 export const OperationButton = styled.button `
-width: ${props => props.btnWidth || '100px'};
-height: ${props => props.btnHeight || '100px'};
+width: ${props => props.btnWidth || '75px'};
+height: ${props => props.btnHeight || '75px'};
 border-radius: 100%;
 background-color: ${props => props.bgColor || 'darkgrey'};
 border: 1px solid gray;
