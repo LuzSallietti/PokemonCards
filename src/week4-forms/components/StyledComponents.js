@@ -27,7 +27,7 @@ border-radius: 20px;
 border: 1px solid #828282;
 width:100%;
 padding: .5rem;
-margin-top:1rem; 
+margin: 0.25rem 0 1rem 0;
 `
 export const Link = styled.a`
 text-decoration: none;
